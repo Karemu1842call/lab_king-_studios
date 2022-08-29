@@ -1,15 +1,12 @@
 import React from 'react';
-function Output(){
+function Instructor(){
     return(
     <div className='instruct'>
         <header>How to use the program.</header>
-        <ul>
+        <ul> 
             <li>1.open the page that has the search bar.</li>
-            <li>2.Click on the search button to diplay the animes</li>
-
-
-        </ul>
+            <li>2.Click on the search button to diplay the animes</li></ul>
     </div>
 )
-};
-export default Output;
+}
+export default Instructor;
