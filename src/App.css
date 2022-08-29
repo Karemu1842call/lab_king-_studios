@@ -122,3 +122,15 @@
   align-items: center;
   justify-content: center;
 }
+.card--image {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: 250px;
+  height: 320px;
+  margin: 19px 15px;
+  background: #2f1786;
+}
