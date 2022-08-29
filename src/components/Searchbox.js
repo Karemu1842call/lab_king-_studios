@@ -30,7 +30,7 @@ return(
             <img className='card--image'
             src={anime.image}
             alt={anime.name+ 'poster'}/>
-            <h1 key={anime.id}>{anime.casts}</h1>
+            <h1 key={anime.id} className="watu">{anime.power}</h1>
             <div className="card--content">
             <h2 className="card--tittle">{anime.maincharacter}</h2>
             </div>
